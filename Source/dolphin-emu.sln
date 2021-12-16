@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dolphin", "Core\DolphinQt\DolphinQt.vcxproj", "{FA3FA62B-6F58-4B86-9453-4D149940A066}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7} = {D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DolphinNoGUI", "Core\DolphinNoGUI\DolphinNoGUI.vcxproj", "{974E563D-23F8-4E8F-9083-F62876B04E08}"
 EndProject
@@ -74,6 +77,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zstd", "..\Externals\zstd\zstd.vcxproj", "{1BEA10F3-80CE-4BC4-9331-5769372CDF99}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mgba", "..\Externals\mGBA\mgba.vcxproj", "{864C4C8E-296D-3DBC-AD83-F1D5CB6E8EC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "json", "..\Externals\json\json.vcxproj", "{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -501,6 +506,18 @@ Global
 		{864C4C8E-296D-3DBC-AD83-F1D5CB6E8EC6}.Release|x64.Build.0 = Release|x64
 		{864C4C8E-296D-3DBC-AD83-F1D5CB6E8EC6}.Release|x86.ActiveCfg = Release|x64
 		{864C4C8E-296D-3DBC-AD83-F1D5CB6E8EC6}.Release|x86.Build.0 = Release|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Debug|ARM64.ActiveCfg = Debug|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Debug|ARM64.Build.0 = Debug|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Debug|x64.ActiveCfg = Debug|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Debug|x64.Build.0 = Debug|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Debug|x86.Build.0 = Debug|Win32
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Release|ARM64.ActiveCfg = Release|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Release|ARM64.Build.0 = Release|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Release|x64.ActiveCfg = Release|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Release|x64.Build.0 = Release|x64
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Release|x86.ActiveCfg = Release|Win32
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -532,6 +549,7 @@ Global
 		{055A775F-B4F5-4970-9240-F6CF7661F37B} = {87ADDFF9-5768-4DA2-A33B-2477593D6677}
 		{1BEA10F3-80CE-4BC4-9331-5769372CDF99} = {87ADDFF9-5768-4DA2-A33B-2477593D6677}
 		{864C4C8E-296D-3DBC-AD83-F1D5CB6E8EC6} = {87ADDFF9-5768-4DA2-A33B-2477593D6677}
+		{D5C79291-8ABC-4981-A10B-C05CF4EF8FF7} = {87ADDFF9-5768-4DA2-A33B-2477593D6677}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64B0A343-3B94-4522-9C24-6937FE5EFB22}
