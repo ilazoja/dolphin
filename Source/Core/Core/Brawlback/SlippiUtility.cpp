@@ -197,7 +197,7 @@ namespace SlippiUtility
 
   void print_byte(uint8_t byte)
   {
-    INFO_LOG(BRAWLBACK, "Byte: %s%s\n", bit_rep[byte >> 4], bit_rep[byte & 0x0F]);
+    //INFO_LOG(BRAWLBACK, "Byte: %s%s\n", bit_rep[byte >> 4], bit_rep[byte & 0x0F]);
   }
 
   }  // namespace Mem

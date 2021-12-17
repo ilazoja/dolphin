@@ -40,13 +40,13 @@
   <ItemGroup>
     <ClCompile Include="Core\Brawlback\Savestate.cpp" />
     <ClCompile Include="Core\Brawlback\SlippiUtility.cpp" />
-    <ClCompile Include="Core\HW\EXI\EXIBrawlback.cpp" />
+    <ClCompile Include="Core\HW\EXI\EXICrowdControl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\Brawlback\Brawltypes.h" />
     <ClInclude Include="Core\Brawlback\Savestate.h" />
     <ClInclude Include="Core\Brawlback\SlippiUtility.h" />
-    <ClInclude Include="Core\HW\EXI\EXIBrawlback.h" />
+    <ClInclude Include="Core\HW\EXI\EXICrowdControl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
